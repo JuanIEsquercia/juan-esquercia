@@ -59,6 +59,16 @@
     text-align: center;
     position: relative;
   }
+  .profile-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 24px;
+    display: block;
+    border: 3px solid rgba(59,130,246,0.4);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+  }
   .hero h1 {
     font-family: 'Outfit', sans-serif;
     font-size: clamp(2.6rem, 7vw, 4.2rem);
@@ -219,6 +229,7 @@
 
 <section class="hero" id="presentacion">
   <div class="container">
+    <img src="profile.jpg" alt="Juan Ignacio Esquercia" class="profile-photo">
     <h1>Juan Ignacio Esquercia</h1>
     <div class="subtitle">Abogado | Desarrollo de Negocios y Procesos</div>
     <p>Abogado enfocado en la optimización de procesos, la gestión de equipos y el desarrollo de soluciones escalables. Combino formación jurídica con una mirada emprendedora para resolver cuellos de botella y construir sistemas que hagan crecer los negocios.</p>
